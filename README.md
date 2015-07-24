@@ -1,4 +1,4 @@
-#Motivation Extension
+#Motivational Quote Tab Extension
 
 A small uplifting extension for Chrome that replaces the standard new tab page with an inspiring and motivational quote.
 
