@@ -1,0 +1,20 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "app.js" ]
+   },
+   "chrome_url_overrides": {
+      "newtab": "tab.html"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Replace new tab page with an inspiring and motivating quote or line.",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "48": "icon-48.png"
+   },
+   "manifest_version": 2,
+   "name": "New Tab Motivator Extension",
+   "offline_enabled": true,
+   "version": "0.1"
+}

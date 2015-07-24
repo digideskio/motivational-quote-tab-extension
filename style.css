@@ -1,0 +1,47 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-align-items: center;
+  -webkit-flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -webkit-justify-content: center;
+  display: -webkit-flex;
+}
+
+body {
+  background: -webkit-linear-gradient(90deg, #232526 10%, #414345 90%);
+  background: -moz-linear-gradient(90deg, #232526 10%, #414345 90%);
+  background: -ms-linear-gradient(90deg, #232526 10%, #414345 90%);
+  background: -o-linear-gradient(90deg, #232526 10%, #414345 90%);
+  background: linear-gradient(90deg, #232526 10%, #414345 90%);
+}
+
+.quote {
+	max-width: 44%;
+	text-align: center;
+	color: #E8E8E8;
+	font-size: 60px;
+	font-family: 'Nothing You Could Do', cursive;
+}
+
+.quote #author {
+	color: #B8B8B8;
+	font-size: 40px;
+	font-family: 'Varela', sans-serif;
+}
